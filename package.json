@@ -29,7 +29,7 @@
       {
         "label": "Nova",
         "uiTheme": "vs-dark",
-        "path": "./themes/Sample_Dark.tmTheme"
+        "path": "./themes/Nova.tmTheme"
       }
     ]
   }
