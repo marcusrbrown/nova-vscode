@@ -1,24 +1,36 @@
 {
-  "name": "nova-atom-ui",
-  "version": "1.1.3",
+  "name": "theme-nova",
+  "version": "0.0.1",
   "scripts": {
     "start": "scripts/start",
     "publish": "scripts/publish"
   },
-  "description": "Nova color scheme UI plugin for Atom",
+  "description": "A color scheme for modern web development",
   "homepage": "https://trevordmiller.github.io/nova",
-  "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
+  "author": "Marcus R. Brown <me@igetgam.es> (http://igetgam.es)",
   "license": "MIT",
   "keywords": [
     "ui",
     "theme",
-    "atom-theme",
     "color-scheme",
     "colors"
   ],
-  "repository": "https://github.com/trevordmiller/nova-atom-ui",
-  "theme": "ui",
+  "repository": "https://github.com/igetgames/nova-vscode",
+  "displayName": "Nova Theme",
+  "publisher": "igetgames",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nova",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sample_Dark.tmTheme"
+      }
+    ]
   }
 }
